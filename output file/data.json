@@ -1,0 +1,23 @@
+[
+    {
+        "customer_id": "C1",
+        "loyalty_score": "7",
+        "product_id": "P39",
+        "product_category": "house",
+        "purchase_count": 1
+    },
+    {
+        "customer_id": "C3",
+        "loyalty_score": "8",
+        "product_id": "P35",
+        "product_category": "house",
+        "purchase_count": 1
+    },
+    {
+        "customer_id": "C3",
+        "loyalty_score": "8",
+        "product_id": "P32",
+        "product_category": "house",
+        "purchase_count": 1
+    }
+]

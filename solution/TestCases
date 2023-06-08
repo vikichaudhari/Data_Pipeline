@@ -1,0 +1,54 @@
+
+1. `read_customers_csv()` function:
+   - Test case 1: Valid CSV file exists.
+     - Input: A CSV file containing customer data with multiple rows.
+     - Expected output: The function should read the CSV file and print each row of data.
+
+   - Test case 2: Empty CSV file.
+     - Input: An empty CSV file.
+     - Expected output: The function should handle the empty file gracefully and print an appropriate message.
+
+   - Test case 3: CSV file not found.
+     - Input: An invalid file path or a non-existent CSV file.
+     - Expected output: The function should handle the file not found scenario and print an appropriate message.
+
+2. `read_products_csv()` function:
+   - Test case 1: Valid CSV file exists.
+     - Input: A CSV file containing product data with multiple rows.
+     - Expected output: The function should read the CSV file and print each row of data.
+
+   - Test case 2: Empty CSV file.
+     - Input: An empty CSV file.
+     - Expected output: The function should handle the empty file gracefully and print an appropriate message.
+
+   - Test case 3: CSV file not found.
+     - Input: An invalid file path or a non-existent CSV file.
+     - Expected output: The function should handle the file not found scenario and print an appropriate message.
+
+3. `read_transactions_json()` function:
+   - Test case 1: Valid JSON file exists.
+     - Input: A JSON file containing transaction data.
+     - Expected output: The function should read the JSON file, parse the data, and print the contents of the JSON file.
+
+   - Test case 2: Empty JSON file.
+     - Input: An empty JSON file.
+     - Expected output: The function should handle the empty file gracefully and print an appropriate message.
+
+   - Test case 3: JSON file not found.
+     - Input: An invalid file path or a non-existent JSON file.
+     - Expected output: The function should handle the file not found scenario and print an appropriate message.
+
+4. `output_json()` function:
+   - Test case 1: The function is called.
+     - Input: -
+     - Expected output: The function should generate a JSON file named "data.json" and write the JSON data to it based on the provided sample data.
+
+   - Test case 2: Output file already exists.
+     - Input: The "data.json" file already exists in the specified location.
+     - Expected output: The function should handle the scenario where the output file already exists and handle it gracefully, such as displaying an appropriate message or creating a new file with a different name.
+
+   - Test case 3: Invalid output file path.
+     - Input: An invalid file path or a restricted location where the function doesn't have write permissions.
+     - Expected output: The function should handle the scenario where it cannot write the output file and display an appropriate message.
+
+These test cases cover different scenarios to ensure the functions handle various situations correctly.
